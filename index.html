@@ -3,10 +3,479 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
     <title>Connected Education</title>
 </head>
 <body>
-    hello
-    
+    <!-- Header -->
+    <header class="pd pt">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="./assets/logos/logo.png" alt="Logo">
+            </div>
+            <ul class="navlink-container">
+                <a href="index.html" class="active-nav">Home</a>
+                <a href="about.html">About</a>
+                <a href="course.html">Course</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+            <div class="navButton-container">
+                <div class="login">Login</div>
+                <div class="sign-up">Sign Up</div>
+            </div>
+        </nav>
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1>For Every Student<br>
+                    Every Classroom.<br>
+                    <span class="highlight">Real Results.</span></h1>
+                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a completeLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm</p>
+                <div class="btn-container">
+                    <div class="btn-primary">Get Started</div>
+                    <div class="watch-video">
+                        <img src="./assets/logos/play.png" alt="Play">
+                        <div class="watch-btn">Watch Video</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="./assets/images/home/hero.png" alt="Hero">
+                <img class="count" src="./assets/images/home/counting.png" alt="">
+            </div>
+        </div>
+        <div class="brand-container">
+            <img src="./assets/images/home/brand1.png" alt="Brand">
+            <img src="./assets/images/home/brand2.png" alt="Brand">
+            <img src="./assets/images/home/brand3.png" alt="Brand">
+            <img src="./assets/images/home/brand4.png" alt="Brand">
+        </div>
+    </header>
+
+    <!-- About Section -->
+     <Section class="about-container pd">
+        <div class="about-left">
+            <img src="./assets/images/home/about.png" alt="">
+            <img class="about-stars" src="./assets/images/home/stars.png" alt="">
+            <div class="about-box"></div>
+        </div>
+        <div class="about-right">
+            <p class="sub-title">About Us</p>
+            <h1>We are providing the best<br>
+                online digital courses.
+            </h1>
+            <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roo
+                piece of classical Latin literature from 45 BC, making it over 2000 years old. Ri
+                chard McClintock, a Latin professor at Hampden-Sydney College in Virginia, l
+                ooked up one of the more obscure Latin words, consectetur, from a Lorem Ips
+                um passage, and going through the cites of the word in classical literature, di
+                scovered the undoubtable source
+            </p>
+            <p>
+                .Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonoru
+                et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                book is a treatise on.
+            </p>
+            <div class="btn-primary">Learn More</div>
+        </div>
+     </Section>
+
+    <!-- Course List Section -->
+     <section class="course-list-section">
+        <div class="course-list-container pd">
+            <!-- course list header -->
+            <div class="course-list-header">
+                <p class="sub-title">Course List</p>
+                <h1>Find Your Perfect<br>
+                    Course
+                </h1>
+            </div>
+
+            <!-- course list body -->
+            <div class="course-card-container">
+                <!-- card 1 -->
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="./assets/images/home/course-card1.png" alt="">
+                    </div>
+                    <div class="course-info">
+                        <h3>UI/UX Design</h3>
+                        <div class="course-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="course-price">
+                        <h3>$254.36</h3>
+                        <div class="btn-primary">Book Now</div>
+                    </div>
+                    <div class="course-badge">
+                        <div class="course-badge-img">
+                            <img src="./assets/images/home/best.png" alt="">
+                        </div>
+                        <h3>Best Seller</h3>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="./assets/images/home/course-card2.png" alt="">
+                    </div>
+                    <div class="course-info">
+                        <h3>UI/UX Design</h3>
+                        <div class="course-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="course-price">
+                        <h3>$254.36</h3>
+                        <div class="btn-primary">Book Now</div>
+                    </div>
+                    <div class="course-badge">
+                        <div class="course-badge-img">
+                            <img src="./assets/images/home/best.png" alt="">
+                        </div>
+                        <h3>Best Seller</h3>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="./assets/images/home/course-card3.png" alt="">
+                    </div>
+                    <div class="course-info">
+                        <h3>UI/UX Design</h3>
+                        <div class="course-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="course-price">
+                        <h3>$254.36</h3>
+                        <div class="btn-primary">Book Now</div>
+                    </div>
+                    <div class="course-badge">
+                        <div class="course-badge-img">
+                            <img src="./assets/images/home/best.png" alt="">
+                        </div>
+                        <h3>Best Seller</h3>
+                    </div>
+                </div>
+
+                <!-- card 4 -->
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="./assets/images/home/course-card4.png" alt="">
+                    </div>
+                    <div class="course-info">
+                        <h3>UI/UX Design</h3>
+                        <div class="course-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="course-price">
+                        <h3>$254.36</h3>
+                        <div class="btn-primary">Book Now</div>
+                    </div>
+                    <div class="course-badge">
+                        <div class="course-badge-img">
+                            <img src="./assets/images/home/best.png" alt="">
+                        </div>
+                        <h3>Best Seller</h3>
+                    </div>
+                </div>
+
+                <!-- card 5 -->
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="./assets/images/home/course-card1.png" alt="">
+                    </div>
+                    <div class="course-info">
+                        <h3>UI/UX Design</h3>
+                        <div class="course-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="course-price">
+                        <h3>$254.36</h3>
+                        <div class="btn-primary">Book Now</div>
+                    </div>
+                    <div class="course-badge">
+                        <div class="course-badge-img">
+                            <img src="./assets/images/home/best.png" alt="">
+                        </div>
+                        <h3>Best Seller</h3>
+                    </div>
+                </div>
+
+                <!-- card 6 -->
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="./assets/images/home/course-card1.png" alt="">
+                    </div>
+                    <div class="course-info">
+                        <h3>UI/UX Design</h3>
+                        <div class="course-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="course-price">
+                        <h3>$254.36</h3>
+                        <div class="btn-primary">Book Now</div>
+                    </div>
+                    <div class="course-badge">
+                        <div class="course-badge-img">
+                            <img src="./assets/images/home/best.png" alt="">
+                        </div>
+                        <h3>Best Seller</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- course list button -->
+            <div class="course-list-btn">
+                <button class="btn-primary">
+                    <span>View All</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+     </section>
+
+    <!-- Top Categories Section -->
+     <section class="top-categories-section">
+        <div class="top-categories-container pd">
+            <!-- top-categories header -->
+            <div class="top-categories-header">
+                <p class="sub-title">Services</p>
+                <h1>Top<br>
+                    Categories
+                </h1>
+            </div>
+            <div class="top-categories-card-container">
+                <div class="top-categories-card">
+                    <img src="./assets/images/home/top-categories-card1.png" alt="">
+                    <h3>Development</h3>
+                </div>
+                <div class="top-categories-card">
+                    <img src="./assets/images/home/top-categories-card2.png" alt="">
+                    <h3>Business</h3>
+                </div>
+                <div class="top-categories-card">
+                    <img src="./assets/images/home/top-categories-card3.png" alt="">
+                    <img class="bubble1" src="./assets/images/home/bubble1.png" alt="">
+                    <img class="bubble2" src="./assets/images/home/bubble2.png" alt="">
+                    <img class="bubble3" src="./assets/images/home/bubble3.png" alt="">
+                    <h3>IT and Software</h3>
+                </div>
+                <div class="top-categories-card">
+                    <img src="./assets/images/home/top-categories-card4.png" alt="">
+                    <h3>UI Design</h3>
+                </div>
+                <div class="top-categories-card">
+                    <img src="./assets/images/home/top-categories-card5.png" alt="">
+                    <h3>UX Design</h3>
+                </div>
+                <div class="top-categories-card">
+                    <img src="./assets/images/home/top-categories-card6.png" alt="">
+                    <h3>Marketing</h3>
+                </div>
+                <div class="top-categories-card">
+                    <img src="./assets/images/home/top-categories-card7.png" alt="">
+                    <h3>Photography</h3>
+                </div>
+                <div class="top-categories-card">
+                    <img src="./assets/images/home/top-categories-card8.png" alt="">
+                    <h3>Graphics Design</h3>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Team Member Section -->
+     <section class="team-member-section">
+        <div class="team-member-container pd">
+            <!-- team-member header -->
+            <div class="team-member-header">
+                <p class="sub-title">Team Member</p>
+                <h1>Popular Professional<br>
+                    Teachers
+                </h1>
+            </div>
+
+            <!-- team member body -->
+            <div class="team-member-card-container">
+                <div class="team-member-card">
+                    <img src="./assets/images/home/team1.jpg" alt="">
+                    <div class="team-member-info">
+                        <h3>Pushpa Kanon</h3>
+                        <p>CEO, Derhab</p>
+                    </div>
+                </div>
+                <div class="team-member-card">
+                    <img src="./assets/images/home/team2.jpg" alt="">
+                    <div class="team-member-info">
+                        <h3>Lolona Khan</h3>
+                        <p>UI Designer</p>
+                    </div>
+                </div>
+                <div class="team-member-card">
+                    <img src="./assets/images/home/team3.jpg" alt="">
+                    <div class="team-member-info">
+                        <h3>Jahangir Khan</h3>
+                        <p>UX Designer</p>
+                    </div>
+                </div>
+                <div class="team-member-card">
+                    <img src="./assets/images/home/team4.jpg" alt="">
+                    <div class="team-member-info">
+                        <h3>Mukayemi Sha</h3>
+                        <p>Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="testimonial-container-outer pd">
+            <div class="testimonial-left">
+                <p class="sub-title">About Us</p>
+                <h1>What They Say?</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
+                    smod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in repreh
+                </p>
+                <p>
+                    enderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum."
+                </p>
+                <div class="btn-assignment">Write Your Assignment</div>
+            </div>
+            <div class="testimonial-right">
+                <div class="testimonial-container">
+                    <div class="testimonial-img-container">
+                        <img src="./assets/images/home/testimonial1.jpg" alt="Testimonial">
+                    </div>
+                    <div class="testimonial-comment">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adip
+                            iscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commo
+                            do consequat. Duis aute irure dolor in repreh
+                        </p>
+                        <div class="testimonial-info">
+                            <h3>Ruksana Akter</h3>
+                            <div class="course-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-img-btn">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer-section pd">
+        <div class="footer-container">
+            <div class="footer-1">
+                <img src="./assets/logos/logo2.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adip
+                    iscing elit, sed do.</p>
+                <div class="store">
+                    <img src="./assets/logos/app-store.png" alt="App Store">
+                    <img src="./assets/logos/google-play.png" alt="Google Play">
+                </div>
+                <div class="socials">
+                    <p>Follow Us</p>
+                    <div class="socials-logos">
+                        <img src="./assets/logos/linkedin.png" alt="">
+                        <img src="./assets/logos/twitter.png" alt="">
+                        <img src="./assets/logos/facebook.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-2">
+                <h3>About Us</h3>
+                <ul>
+                    <li>Our Company</li>
+                    <li>Career</li>
+                    <li>Investor Relations</li>
+                    <li>Social Impact</li>
+                </ul>
+            </div>
+            <div class="footer-3">
+                <h3>Resources</h3>
+                <ul>
+                    <li>Contact</li>
+                    <li>Give Feedback</li>
+                    <li>Hello@example.com</li>
+                </ul>
+            </div>
+            <div class="footer-4">
+                <div class="email-field">
+
+                </div>
+                <ul>
+                    <li>Email Us</li>
+                    <li>RK@Oama.io</li>
+                    <li>Bolomu All Rights Reserved, 2021</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
