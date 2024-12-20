@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Banner Section */
+.banner {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.9;/* Ensures the image covers the area */
+}
+
+/* Banner Content */
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Add shadow for text visibility */
+}
+
+.banner-text{
+    color: #6278FF;
+}
+
+/* Banner Section */
+
+/*text*/
+
+.about-section{
+    height: 500px;
+    background-color: rgb(223, 226, 226);
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-intro{
+    text-align: center;
+}
+
+.about-features{
+    text-align: center;
+    display: flex;
+    margin: 10px 0px;
+}
+
+/*text*/
+
+/*mission-section*/
+
+.mission-section{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.mission-subtitle{
+    color: #6278FF;
+}
+
+.mission-image img {
+    width: 100%; /* Makes the image adapt to the container's width */
+    height: 300px; /* Maintains the aspect ratio */
+    /* max-width: 500px; Set a maximum width for better control */
+}
+
+.mission-button{
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    background-color:  #6278FF;
+    font-weight: 100;
+    border: 2px solid #6278FF;
+}
