@@ -97,3 +97,86 @@ body, html {
 .team-subtitle{
     color:#6278FF
 }
+
+/* Team Member Section */
+.team-member-section{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #edeef3;
+}
+.team-member-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.team-member-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.team-member-header .sub-title{
+    color: #6278ff;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.team-member-header h1{
+    font-family: "Roboto", serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.team-member-container .team-member-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 24px;
+}
+.team-member-card{
+    position: relative;
+    width: 100%;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0px 0px 70px 0px #6A6A6A1A;
+    margin-bottom: 24px;
+    background: #fff;
+}
+.team-member-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team-member-card .team-member-info{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    background: #6278FF;
+    color: #fff;
+}
+.team-member-card .team-member-info h3{
+    font-family: "Roboto", serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.team-member-card .team-member-info p{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
