@@ -87,3 +87,13 @@ body, html {
     font-weight: 100;
     border: 2px solid #6278FF;
 }
+
+/*team header*/
+
+.team-header{
+    text-align: center;
+}
+
+.team-subtitle{
+    color:#6278FF
+}
