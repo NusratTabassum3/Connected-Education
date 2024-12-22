@@ -267,7 +267,161 @@ header{
 
 
 /* Course List Section */
-/* Moved to global.css */
+.course-list-section{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #edeef3;
+}
+.course-list-container{
+    width: 100%;
+    min-height: 1490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.course-list-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+.course-list-header .sub-title{
+    color: #6278ff;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.course-list-header h1{
+    font-family: "Roboto", serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* course card */
+.course-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+.course-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 60px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    padding: 30px 36px;
+    background: #fff;
+}
+.course-img{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 38px;
+}
+.course-img img{
+    width: 100%;
+}
+.course-badge-web{
+    position: absolute;
+    top: 18px;
+    right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #fff;
+    opacity: 0.8;
+    color: #6278ff;
+}
+.course-badge-web h3{
+    padding: 8px 14px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: .5px;
+}
+.course-info{    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.course-info h3{
+    font-family: "Roboto", serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+.course-rating{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    font-size: 24px;
+    color: #ffc107;
+}
+.course-price{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.course-price h3{
+    font-family: "Roboto", serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #6278ff;
+}
+.course-price .btn-primary{
+    padding: 8px 35px;
+    cursor: pointer;
+}
+.course-badge{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.course-badge-img{
+    width: 60px;
+    height: 60px;
+    background: #e3e7ff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course-badge h3{
+    font-family: "Roboto", serif;
+    color: #6278FF;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 9px;
+}
+
+.course-list-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.course-list-btn .btn-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 11px;
+    padding: 12px 41px;
+}
 
 
 /* Top Categories Section */
@@ -587,3 +741,150 @@ header{
 }
 
 
+/* Footer Section */
+.footer-section{
+    width: 100%;
+    height: 550px;
+    background: #132742;
+}
+.footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.footer-1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-1 img{
+    margin-bottom: 25px;
+}
+.footer-1 p{
+    width: 90%;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footer-1 .store{
+    display: flex;
+    flex-direction: column;
+}
+.footer-1 .store img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer-1 .socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 20px;
+}
+.footer-1 .socials p{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 13px;
+}
+.footer-1 .socials-logos{
+    display: flex;
+    column-gap: 15px;
+}
+.footer-1 .socials img{
+    width: 25px;
+    height: 25px;
+}
+
+.footer-2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-2 h3{
+    font-family: "Poppins", serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 34px;
+}
+.footer-2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-2 ul li{    
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15px;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+.footer-3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-3 h3{
+    font-family: "Poppins", serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 34px;
+}
+.footer-3 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-3 ul li{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15px;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+.footer-4{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-4 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-4 ul li{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15px;
+    cursor: pointer;
+    line-height: 27px;
+}
