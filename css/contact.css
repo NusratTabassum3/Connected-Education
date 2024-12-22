@@ -158,7 +158,7 @@
     padding-left: 122px;
     padding-right: 122px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 .contact-body .input-row{
     display: flex;
@@ -192,6 +192,9 @@
     line-height: 24px;
     background: #EDEEF3;
 }
+.contact-body .input-row .input-field input:focus, .contact-body .input-message input:focus{
+    outline: none;
+}
 .contact-body .input-message{
     width: 100%;
     display: flex;
@@ -201,9 +204,6 @@
 }
 .contact-body .input-message input{
     height: 250px;
-}
-.contact-body .input-message input:focus{
-    outline: none;
 }
 .terms{
     display: flex;
