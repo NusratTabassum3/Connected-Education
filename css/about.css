@@ -1,22 +1,59 @@
 
-
-
-
 .hero-container {
     background: url('/assets/images/about/Rectangle 35.png') no-repeat center center/cover; 
 }
 
 
-
+/*About-Section*/
 
 
 .about-section{
     height: 500px;
     background-color: rgb(223, 226, 226);
-    margin-top: -20px;
+    margin-top: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.about-section .section-title{
+    font-family: Roboto;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+/* text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none; */
+
+
+
+}
+
+.about-section .intro-text{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* width: 614px; */
+    height: 81px;
+    top: 1140px;
+    left: 653px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.about-section .about-features .feature-title{
+    font-family: Roboto;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.47px;
+
+
 }
 
 .about-intro{
@@ -29,31 +66,78 @@
     margin: 10px 0px;
 }
 
-/*text*/
+/*About-Section*/
 
-/*mission-section*/
+
+/*Mission-Section*/
 
 .mission-section{
     margin: 30px 0px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .mission-subtitle{
     color: #6278FF;
 }
 
-.mission-image img {
+.mission-section .mission-image img {
     width: 100%; 
     height: 300px; 
+
+    width: 638px;
+    height: 680px;
+    top: 1826px;
+    left: 1042px;
+    gap: 0px;
+    border-radius: 24px 0px 0px 0px;
+    opacity: 0px;
+
 }
 
+.mission-section .mission-title {
+    font-family: Roboto;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+
+.mission-section .mission-content .mission-text{
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    width: 617px;
+    height: 170px;
+
+
+}
+
+
+
 .mission-button{
-    border-radius: 30px;
+    border-radius: 25px;
     padding: 10px;
     color: white;
     background-color:  #6278FF;
-    font-weight: 100;
-    border: 2px solid #6278FF;
+    font-weight: 300;
+    border: 10px solid #6278FF;
+
+   
+    font-size: 20px;
+
+
 }
 
 /*team header*/
